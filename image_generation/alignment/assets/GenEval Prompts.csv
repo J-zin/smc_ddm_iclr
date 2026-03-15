@@ -1,0 +1,554 @@
+Prompts,Category
+a photo of a bench,single_object
+a photo of a cow,single_object
+a photo of a bicycle,single_object
+a photo of a clock,single_object
+a photo of a carrot,single_object
+a photo of a suitcase,single_object
+a photo of a fork,single_object
+a photo of a surfboard,single_object
+a photo of a refrigerator,single_object
+a photo of a cup,single_object
+a photo of a microwave,single_object
+a photo of a potted plant,single_object
+a photo of a snowboard,single_object
+a photo of a zebra,single_object
+a photo of a parking meter,single_object
+a photo of a spoon,single_object
+a photo of a skateboard,single_object
+a photo of a car,single_object
+a photo of a motorcycle,single_object
+a photo of a traffic light,single_object
+a photo of a book,single_object
+a photo of a couch,single_object
+a photo of a backpack,single_object
+a photo of a computer keyboard,single_object
+a photo of a toaster,single_object
+a photo of a bird,single_object
+a photo of a bowl,single_object
+a photo of a dog,single_object
+a photo of a tie,single_object
+a photo of a laptop,single_object
+a photo of a computer mouse,single_object
+a photo of a sandwich,single_object
+a photo of a baseball bat,single_object
+a photo of a train,single_object
+a photo of a cell phone,single_object
+a photo of a chair,single_object
+a photo of a tv,single_object
+a photo of a broccoli,single_object
+a photo of a bed,single_object
+a photo of a skis,single_object
+a photo of a handbag,single_object
+a photo of a pizza,single_object
+a photo of a frisbee,single_object
+a photo of a scissors,single_object
+a photo of a bottle,single_object
+a photo of an elephant,single_object
+a photo of a toilet,single_object
+a photo of an oven,single_object
+a photo of an orange,single_object
+a photo of a person,single_object
+a photo of a teddy bear,single_object
+a photo of a vase,single_object
+a photo of a banana,single_object
+a photo of a toothbrush,single_object
+a photo of a tv remote,single_object
+a photo of a dining table,single_object
+a photo of a stop sign,single_object
+a photo of a sheep,single_object
+a photo of a fire hydrant,single_object
+a photo of an airplane,single_object
+a photo of a giraffe,single_object
+a photo of a horse,single_object
+a photo of a cat,single_object
+a photo of a donut,single_object
+a photo of a boat,single_object
+a photo of a baseball glove,single_object
+a photo of a hair drier,single_object
+a photo of a sink,single_object
+a photo of a cake,single_object
+a photo of a wine glass,single_object
+a photo of an apple,single_object
+a photo of a bus,single_object
+a photo of a tennis racket,single_object
+a photo of a knife,single_object
+a photo of a hot dog,single_object
+a photo of a truck,single_object
+a photo of an umbrella,single_object
+a photo of a sports ball,single_object
+a photo of a bear,single_object
+a photo of a kite,single_object
+a photo of a bench and a sports ball,two_object
+a photo of a toothbrush and a snowboard,two_object
+a photo of a toaster and an oven,two_object
+a photo of a broccoli and a vase,two_object
+a photo of a tennis racket and a wine glass,two_object
+a photo of a fork and a knife,two_object
+a photo of a hair drier and a cake,two_object
+a photo of a horse and a giraffe,two_object
+a photo of a horse and a computer keyboard,two_object
+a photo of a toothbrush and a carrot,two_object
+a photo of a cake and a zebra,two_object
+a photo of a hair drier and a bear,two_object
+a photo of a knife and a zebra,two_object
+a photo of a couch and a wine glass,two_object
+a photo of a frisbee and a vase,two_object
+a photo of a book and a laptop,two_object
+a photo of a dining table and a bear,two_object
+a photo of a frisbee and a couch,two_object
+a photo of a couch and a horse,two_object
+a photo of a toilet and a computer mouse,two_object
+a photo of a bottle and a refrigerator,two_object
+a photo of a potted plant and a backpack,two_object
+a photo of a skateboard and a cake,two_object
+a photo of a broccoli and a parking meter,two_object
+a photo of a zebra and a bed,two_object
+a photo of an oven and a bed,two_object
+a photo of a baseball bat and a fork,two_object
+a photo of a vase and a spoon,two_object
+a photo of a skateboard and a sink,two_object
+a photo of a pizza and a bench,two_object
+a photo of a bowl and a pizza,two_object
+a photo of a tennis racket and a bird,two_object
+a photo of a wine glass and a bear,two_object
+a photo of a fork and a book,two_object
+a photo of a scissors and a bowl,two_object
+a photo of a laptop and a carrot,two_object
+a photo of a stop sign and a bottle,two_object
+a photo of a microwave and a truck,two_object
+a photo of a person and a bear,two_object
+a photo of a frisbee and a cell phone,two_object
+a photo of a parking meter and a teddy bear,two_object
+a photo of a tennis racket and a bicycle,two_object
+a photo of a stop sign and a motorcycle,two_object
+a photo of a fire hydrant and a tennis racket,two_object
+a photo of a scissors and a sandwich,two_object
+a photo of a pizza and a book,two_object
+a photo of a giraffe and a computer mouse,two_object
+a photo of a stop sign and a toaster,two_object
+a photo of a computer mouse and a zebra,two_object
+a photo of a chair and a bench,two_object
+a photo of a tv and a carrot,two_object
+a photo of a surfboard and a suitcase,two_object
+a photo of a computer keyboard and a laptop,two_object
+a photo of a computer keyboard and a microwave,two_object
+a photo of a scissors and a bird,two_object
+a photo of a person and a snowboard,two_object
+a photo of a cow and a horse,two_object
+a photo of a handbag and a refrigerator,two_object
+a photo of a chair and a laptop,two_object
+a photo of a toothbrush and a bench,two_object
+a photo of a book and a baseball bat,two_object
+a photo of a horse and a train,two_object
+a photo of a bench and a vase,two_object
+a photo of a traffic light and a backpack,two_object
+a photo of a sports ball and a cow,two_object
+a photo of a computer mouse and a spoon,two_object
+a photo of a tv and a bicycle,two_object
+a photo of a bench and a snowboard,two_object
+a photo of a toothbrush and a toilet,two_object
+a photo of a person and an apple,two_object
+a photo of a sink and a sports ball,two_object
+a photo of a stop sign and a dog,two_object
+a photo of a knife and a stop sign,two_object
+a photo of a wine glass and a handbag,two_object
+a photo of a bowl and a skis,two_object
+a photo of a frisbee and an apple,two_object
+a photo of a computer keyboard and a cell phone,two_object
+a photo of a stop sign and a fork,two_object
+a photo of a potted plant and a boat,two_object
+a photo of a tv and a cell phone,two_object
+a photo of a tie and a broccoli,two_object
+a photo of a potted plant and a donut,two_object
+a photo of a person and a sink,two_object
+a photo of a couch and a snowboard,two_object
+a photo of a fork and a baseball glove,two_object
+a photo of an apple and a toothbrush,two_object
+a photo of a bus and a baseball glove,two_object
+a photo of a person and a stop sign,two_object
+a photo of a carrot and a couch,two_object
+a photo of a baseball bat and a bear,two_object
+a photo of a fire hydrant and a train,two_object
+a photo of a baseball glove and a carrot,two_object
+a photo of a microwave and a bench,two_object
+a photo of a cake and a stop sign,two_object
+a photo of a car and a computer mouse,two_object
+a photo of a suitcase and a dining table,two_object
+a photo of a person and a traffic light,two_object
+a photo of a cell phone and a horse,two_object
+a photo of a baseball bat and a giraffe,two_object
+a photo of two clocks,counting
+a photo of two backpacks,counting
+a photo of four handbags,counting
+a photo of two frisbees,counting
+a photo of three sports balls,counting
+a photo of two bears,counting
+a photo of two ties,counting
+a photo of four sinks,counting
+a photo of two toothbrushs,counting
+a photo of three persons,counting
+a photo of three tennis rackets,counting
+a photo of four bowls,counting
+a photo of four vases,counting
+a photo of three cups,counting
+a photo of four computer keyboards,counting
+a photo of three sinks,counting
+a photo of two ovens,counting
+a photo of two toilets,counting
+a photo of two bicycles,counting
+a photo of two trains,counting
+a photo of three oranges,counting
+a photo of three buses,counting
+a photo of three handbags,counting
+a photo of three snowboards,counting
+a photo of two snowboards,counting
+a photo of four dogs,counting
+a photo of three apples,counting
+a photo of two sheeps,counting
+a photo of three hot dogs,counting
+a photo of three zebras,counting
+a photo of three kites,counting
+a photo of four apples,counting
+a photo of three cell phones,counting
+a photo of four baseball gloves,counting
+a photo of three computer keyboards,counting
+a photo of two beds,counting
+a photo of two tv remotes,counting
+a photo of three fire hydrants,counting
+a photo of three books,counting
+a photo of four giraffes,counting
+a photo of two vases,counting
+a photo of four donuts,counting
+a photo of four chairs,counting
+a photo of three baseball bats,counting
+a photo of four stop signs,counting
+a photo of two pizzas,counting
+a photo of three refrigerators,counting
+a photo of two fire hydrants,counting
+a photo of three giraffes,counting
+a photo of four tvs,counting
+a photo of three wine glasses,counting
+a photo of four broccolis,counting
+a photo of three trucks,counting
+a photo of two trucks,counting
+a photo of two carrots,counting
+a photo of two sandwichs,counting
+a photo of four traffic lights,counting
+a photo of four clocks,counting
+a photo of two cars,counting
+a photo of two bananas,counting
+a photo of two wine glasses,counting
+a photo of three pizzas,counting
+a photo of four knifes,counting
+a photo of three suitcases,counting
+a photo of four zebras,counting
+a photo of two teddy bears,counting
+a photo of four skateboards,counting
+a photo of four hot dogs,counting
+a photo of three birds,counting
+a photo of four boats,counting
+a photo of four microwaves,counting
+a photo of two hair driers,counting
+a photo of three laptops,counting
+a photo of three cows,counting
+a photo of two parking meters,counting
+a photo of four benchs,counting
+a photo of three benchs,counting
+a photo of four frisbees,counting
+a photo of four books,counting
+a photo of four buses,counting
+a photo of a blue fire hydrant,colors
+a photo of a pink car,colors
+a photo of a purple cup,colors
+a photo of a blue cow,colors
+a photo of a yellow boat,colors
+a photo of a blue umbrella,colors
+a photo of a blue elephant,colors
+a photo of a yellow elephant,colors
+a photo of a red bicycle,colors
+a photo of a purple suitcase,colors
+a photo of a purple hair drier,colors
+a photo of a white sandwich,colors
+a photo of a purple elephant,colors
+a photo of a green microwave,colors
+a photo of a red zebra,colors
+a photo of a red apple,colors
+a photo of a yellow tv remote,colors
+a photo of a blue toilet,colors
+a photo of an orange orange,colors
+a photo of a black donut,colors
+a photo of a red vase,colors
+a photo of a purple pizza,colors
+a photo of a pink skateboard,colors
+a photo of a green skateboard,colors
+a photo of a purple bear,colors
+a photo of a brown chair,colors
+a photo of a brown computer keyboard,colors
+a photo of an orange cow,colors
+a photo of a brown skis,colors
+a photo of a white kite,colors
+a photo of a red dog,colors
+a photo of a green couch,colors
+a photo of a yellow airplane,colors
+a photo of an orange tv,colors
+a photo of a white scissors,colors
+a photo of a pink cell phone,colors
+a photo of a green surfboard,colors
+a photo of a white fire hydrant,colors
+a photo of a black bicycle,colors
+a photo of a purple carrot,colors
+a photo of a black dining table,colors
+a photo of a purple potted plant,colors
+a photo of a purple backpack,colors
+a photo of a yellow train,colors
+a photo of a pink potted plant,colors
+a photo of a red giraffe,colors
+a photo of a brown bear,colors
+a photo of a black train,colors
+a photo of an orange laptop,colors
+a photo of a green hot dog,colors
+a photo of a yellow parking meter,colors
+a photo of a red potted plant,colors
+a photo of a green traffic light,colors
+a photo of a blue tv,colors
+a photo of a brown refrigerator,colors
+a photo of a black tv remote,colors
+a photo of a purple scissors,colors
+a photo of a yellow orange,colors
+a photo of a brown toaster,colors
+a photo of a red parking meter,colors
+a photo of a brown orange,colors
+a photo of a green clock,colors
+a photo of a white sheep,colors
+a photo of a yellow oven,colors
+a photo of a green vase,colors
+a photo of a black teddy bear,colors
+a photo of a yellow carrot,colors
+a photo of a black hot dog,colors
+a photo of a red scissors,colors
+a photo of a white teddy bear,colors
+a photo of a black skis,colors
+a photo of a blue dining table,colors
+a photo of a black refrigerator,colors
+a photo of a white dog,colors
+a photo of an orange scissors,colors
+a photo of a red cell phone,colors
+a photo of a white orange,colors
+a photo of a blue clock,colors
+a photo of a blue carrot,colors
+a photo of a green motorcycle,colors
+a photo of a pink stop sign,colors
+a photo of a black vase,colors
+a photo of a black backpack,colors
+a photo of a red car,colors
+a photo of a green computer mouse,colors
+a photo of a red backpack,colors
+a photo of a green bus,colors
+a photo of an orange toaster,colors
+a photo of a yellow fork,colors
+a photo of a pink parking meter,colors
+a photo of a blue book,colors
+a photo of a yellow broccoli,colors
+a photo of an orange computer mouse,colors
+a photo of a red cake,colors
+a photo of a dog right of a teddy bear,position
+a photo of a wine glass above a kite,position
+a photo of a couch below a cup,position
+a photo of a laptop left of a cow,position
+a photo of a fork above a hair drier,position
+a photo of a tie right of a baseball bat,position
+a photo of a stop sign above a fork,position
+a photo of a bird below a skateboard,position
+a photo of an apple above a tv,position
+a photo of a train above a potted plant,position
+a photo of a truck left of a refrigerator,position
+a photo of a tv remote below a cow,position
+a photo of a bottle right of a train,position
+a photo of a dog above a cow,position
+a photo of a skateboard above a person,position
+a photo of a baseball glove below an umbrella,position
+a photo of a dining table right of an oven,position
+a photo of a hot dog left of a suitcase,position
+a photo of a bus below a toothbrush,position
+a photo of a backpack right of a sandwich,position
+a photo of a cake below a baseball bat,position
+a photo of a dog right of a tie,position
+a photo of a suitcase right of a boat,position
+a photo of a bear above a clock,position
+a photo of a tv remote left of an umbrella,position
+a photo of a sports ball left of an umbrella,position
+a photo of a train right of a dining table,position
+a photo of a hair drier below an elephant,position
+a photo of a tennis racket right of a spoon,position
+a photo of a wine glass right of a hot dog,position
+a photo of a computer mouse left of a bench,position
+a photo of a carrot left of an orange,position
+a photo of a kite above a toothbrush,position
+a photo of a toaster below a traffic light,position
+a photo of a cat below a baseball glove,position
+a photo of a skis right of a zebra,position
+a photo of a stop sign above a chair,position
+a photo of a stop sign above a parking meter,position
+a photo of a hot dog right of a skateboard,position
+a photo of a pizza below a computer keyboard,position
+a photo of a hair drier left of a toilet,position
+a photo of a cow left of a stop sign,position
+a photo of a suitcase above a skis,position
+a photo of a book above a laptop,position
+a photo of a toothbrush below a pizza,position
+a photo of a toilet left of a kite,position
+a photo of a tie above a sink,position
+a photo of a bird left of a couch,position
+a photo of a bed right of a sports ball,position
+a photo of an elephant below a surfboard,position
+a photo of a frisbee right of a motorcycle,position
+a photo of a vase above a fire hydrant,position
+a photo of a zebra left of an elephant,position
+a photo of a bench left of a bear,position
+a photo of a donut right of a bench,position
+a photo of a frisbee below a horse,position
+a photo of a computer keyboard above a snowboard,position
+a photo of a tv below a cow,position
+a photo of an elephant below a horse,position
+a photo of a suitcase left of a banana,position
+a photo of a train below an airplane,position
+a photo of a cat below a backpack,position
+a photo of a backpack below a cake,position
+a photo of a sandwich below a knife,position
+a photo of a bicycle above a parking meter,position
+a photo of a knife right of a suitcase,position
+a photo of a hot dog above a knife,position
+a photo of a zebra right of a parking meter,position
+a photo of a chair left of a zebra,position
+a photo of a cow below an airplane,position
+a photo of a cup left of an umbrella,position
+a photo of a zebra below a computer keyboard,position
+a photo of a zebra below a broccoli,position
+a photo of a laptop below a sports ball,position
+a photo of a truck left of a baseball bat,position
+a photo of a refrigerator above a baseball bat,position
+a photo of a tv above a baseball bat,position
+a photo of a baseball glove right of a bear,position
+a photo of a refrigerator below a scissors,position
+a photo of a dining table above a suitcase,position
+a photo of a parking meter above a broccoli,position
+a photo of a frisbee above a truck,position
+a photo of a pizza right of a banana,position
+a photo of a bus above a boat,position
+a photo of a cell phone left of a tennis racket,position
+a photo of a horse right of a broccoli,position
+a photo of a broccoli above a bottle,position
+a photo of a vase right of a horse,position
+a photo of a bear above a spoon,position
+a photo of a zebra right of a bed,position
+a photo of a cow right of a laptop,position
+a photo of a bed right of a frisbee,position
+a photo of a tie right of a motorcycle,position
+a photo of a laptop right of a tv,position
+a photo of a cell phone right of a chair,position
+a photo of a couch below a potted plant,position
+a photo of a clock below a tv,position
+a photo of a couch below a vase,position
+a photo of a donut below a cat,position
+a photo of a couch left of a toaster,position
+a photo of a purple wine glass and a black apple,color_attr
+a photo of a green bus and a purple microwave,color_attr
+a photo of a green skis and a brown airplane,color_attr
+a photo of a yellow computer keyboard and a black sink,color_attr
+a photo of a pink oven and a green motorcycle,color_attr
+a photo of a purple parking meter and a red laptop,color_attr
+a photo of a yellow skateboard and an orange computer mouse,color_attr
+a photo of a red skis and a brown tie,color_attr
+a photo of a pink skateboard and a black train,color_attr
+a photo of a white handbag and a purple bed,color_attr
+a photo of a purple elephant and a brown sports ball,color_attr
+a photo of a purple dog and a black dining table,color_attr
+a photo of a white dining table and a red car,color_attr
+a photo of a blue cell phone and a green apple,color_attr
+a photo of a red car and an orange potted plant,color_attr
+a photo of a brown carrot and a white potted plant,color_attr
+a photo of a black kite and a green bear,color_attr
+a photo of a blue laptop and a brown bear,color_attr
+a photo of a green teddy bear and a brown kite,color_attr
+a photo of a yellow stop sign and a blue potted plant,color_attr
+a photo of an orange snowboard and a green cat,color_attr
+a photo of an orange truck and a pink sink,color_attr
+a photo of a brown hot dog and a purple pizza,color_attr
+a photo of a green couch and an orange umbrella,color_attr
+a photo of a brown bed and a pink cell phone,color_attr
+a photo of a black broccoli and a yellow cake,color_attr
+a photo of a red train and a purple bear,color_attr
+a photo of a purple tennis racket and a black sink,color_attr
+a photo of a blue vase and a black banana,color_attr
+a photo of a blue clock and a white cup,color_attr
+a photo of a red umbrella and a blue couch,color_attr
+a photo of a white handbag and a red giraffe,color_attr
+a photo of a pink tv remote and a blue airplane,color_attr
+a photo of a pink handbag and a black scissors,color_attr
+a photo of a brown car and a pink hair drier,color_attr
+a photo of a black bus and a brown cell phone,color_attr
+a photo of a purple sheep and a pink banana,color_attr
+a photo of a blue handbag and a white cell phone,color_attr
+a photo of a white pizza and a green umbrella,color_attr
+a photo of a white tie and a purple skateboard,color_attr
+a photo of a yellow sports ball and a green boat,color_attr
+a photo of a white wine glass and a brown giraffe,color_attr
+a photo of a yellow bowl and a white baseball glove,color_attr
+a photo of an orange microwave and a black spoon,color_attr
+a photo of an orange skateboard and a pink bowl,color_attr
+a photo of a blue toilet and a white suitcase,color_attr
+a photo of a white boat and an orange hot dog,color_attr
+a photo of a yellow dining table and a pink dog,color_attr
+a photo of a red cake and a purple chair,color_attr
+a photo of a blue tie and a pink dining table,color_attr
+a photo of a blue cow and a black computer keyboard,color_attr
+a photo of a yellow pizza and a green oven,color_attr
+a photo of a red laptop and a brown car,color_attr
+a photo of a purple computer keyboard and a blue scissors,color_attr
+a photo of a green surfboard and an orange oven,color_attr
+a photo of a yellow parking meter and a pink refrigerator,color_attr
+a photo of a brown computer mouse and a purple bottle,color_attr
+a photo of a red umbrella and a green cow,color_attr
+a photo of a red giraffe and a black cell phone,color_attr
+a photo of a brown oven and a purple train,color_attr
+a photo of a blue baseball bat and a pink book,color_attr
+a photo of a green cup and a yellow bowl,color_attr
+a photo of a yellow suitcase and a brown bus,color_attr
+a photo of an orange motorcycle and a pink donut,color_attr
+a photo of an orange giraffe and a white baseball glove,color_attr
+a photo of an orange handbag and a green carrot,color_attr
+a photo of a black bottle and a white refrigerator,color_attr
+a photo of a white dog and a blue potted plant,color_attr
+a photo of an orange handbag and a red car,color_attr
+a photo of a red stop sign and a blue book,color_attr
+a photo of a yellow car and an orange toothbrush,color_attr
+a photo of a black potted plant and a yellow toilet,color_attr
+a photo of a brown dining table and a white suitcase,color_attr
+a photo of an orange donut and a yellow stop sign,color_attr
+a photo of a green suitcase and a blue boat,color_attr
+a photo of an orange tennis racket and a yellow sports ball,color_attr
+a photo of a purple computer keyboard and a red chair,color_attr
+a photo of a purple suitcase and an orange pizza,color_attr
+a photo of a white bottle and a blue sheep,color_attr
+a photo of a purple backpack and a white umbrella,color_attr
+a photo of an orange potted plant and a black spoon,color_attr
+a photo of a green tennis racket and a black dog,color_attr
+a photo of a yellow handbag and a blue refrigerator,color_attr
+a photo of a pink broccoli and a red sink,color_attr
+a photo of a red bowl and a pink sink,color_attr
+a photo of a white toilet and a red apple,color_attr
+a photo of a pink dining table and a black sandwich,color_attr
+a photo of a black car and a green parking meter,color_attr
+a photo of a yellow bird and a black motorcycle,color_attr
+a photo of a brown giraffe and a white stop sign,color_attr
+a photo of a white banana and a black elephant,color_attr
+a photo of an orange cow and a purple sandwich,color_attr
+a photo of a red clock and a black cell phone,color_attr
+a photo of a brown knife and a blue donut,color_attr
+a photo of a red cup and a pink handbag,color_attr
+a photo of a yellow bicycle and a red motorcycle,color_attr
+a photo of a red orange and a purple broccoli,color_attr
+a photo of an orange traffic light and a white toilet,color_attr
+a photo of a green cup and a red pizza,color_attr
+a photo of a blue pizza and a yellow baseball glove,color_attr
