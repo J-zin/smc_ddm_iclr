@@ -20,5 +20,5 @@ for n_particles in 1 2 4 8 16 32; do
         smc.resampling.ess_threshold=null \
         smc.proposal_type=ft_model \
         smc.use_ft_model_for_expected_reward=True \
-        smc.ft_model_ckpt=$ft_model_ckpt
+        smc.ft_model_ckpt="$ft_model_ckpt"
 done
