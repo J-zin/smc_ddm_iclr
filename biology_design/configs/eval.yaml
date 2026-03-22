@@ -1,0 +1,35 @@
+hydra:
+  searchpath:
+    - file://configs_gosai
+  run:
+    dir: ./logs_eval/${smc.proposal_type}_kl${smc.kl_weight}_freq${smc.resampling.frequency}_phi${smc.phi}_${smc.final_strategy}${smc.ft_label}/n_${smc.num_particles}/${now:%Y.%m.%d}/${now:%H%M%S}
+  job:
+    chdir: true
+
+defaults:
+  - config_gosai
+  - _self_
+
+smc:
+  resampling:
+    ess_threshold: 0.5
+    partial: False
+    frequency: 10
+  phi: 4
+  tau: 1.0
+  kl_weight: 0.2
+  num_inference_steps: ${sampling.steps}
+  batches: 1
+  num_particles: 8
+  batch_p: 4096
+  lambda_tempering:
+    enabled: True
+    one_at: 100
+  proposal_type: "locally_optimal"
+  use_continuous_formulation: True
+  final_strategy: "argmax_rewards"
+  # Path to finetuned model checkpoint (model.pth) from training.
+  # Leave empty to evaluate the pretrained model without finetuning.
+  ft_model_ckpt:
+  ft_label: ""
+  use_ft_model_for_expected_reward: False

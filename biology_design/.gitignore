@@ -1,0 +1,4 @@
+model_weights/
+logs_eval/
+gReLU/
+wandb/

@@ -1,0 +1,27 @@
+# Core ML — install with the PyTorch CUDA index:
+#   pip install torch==2.3.1 torchvision==0.18.1 --index-url https://download.pytorch.org/whl/cu121
+torch==2.3.1
+torchvision==0.18.1
+
+# Diffusion model / training
+lightning
+causal-conv1d==1.4.0
+timm
+
+# Config management
+hydra-core
+hydra-submitit-launcher
+omegaconf
+
+# Reward model
+# Install gReLU separately (v1.0.2 required):
+#   git clone https://github.com/Genentech/gReLU.git && cd gReLU && pip install .
+
+# Utilities
+transformers
+datasets
+wandb
+scipy
+pandas
+numpy
+rich

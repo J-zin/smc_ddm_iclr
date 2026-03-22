@@ -1,0 +1,61 @@
+hydra:
+  job:
+    chdir: false        # don't change the process cwd to the run directory
+  run:
+    dir: .           # disable/ignore the configured run dir (no outputs/ timestamped dir)
+  output_subdir: null   # (optional) prevents creation of the .hydra subfolder
+  searchpath:
+    - file://configs_gosai
+
+defaults:
+  - config_gosai
+  - _self_
+
+# Path to the downloaded data_and_model directory from DRAKES.
+# Set this before running, or export DRAKES_DATA_ROOT=/path/to/data_and_model
+base_path: ${oc.env:DRAKES_DATA_ROOT}
+
+wandb:
+  project: "smc-ddm-biology"
+
+loader:
+  eval_batch_size: 64
+
+finetuning:
+  start_ckpt: null
+  num_timesteps: ${sampling.steps}
+  batch_size: 64
+  lr: 0.00001
+  num_epochs: 1000
+  batches_per_epoch: 10
+  patience: 20
+  sampling_policy:
+    strategy: mixed # on_policy, off_policy, or mixed
+    frac_on_policy: 0.9 # only relevant if strategy is mixed
+  num_samples_for_reward_estimate: 1
+  reward_estimate_method: 'logmeanexp'
+  kl_weight: 0.5
+  kl_weight_annealing:
+    enabled: false
+    method: 'disable_till_kl_div'
+    disable_till_kl_div:
+      forward: 1500
+      backward: 1200
+  kl_method: 'forward'
+  entropy_weight: 0.5
+  alpha: 0.001
+  truncate_backprop:
+    enabled: true
+    num_steps: 50 # similar to drakes
+  lora:
+    enabled: false
+    target_modules: ["attn_qkv", "attn_out", "mlp.0", "mlp.2"]
+    r: 8
+    lora_alpha: 8
+    lora_dropout: 0
+    bias: "none"
+  validation:
+    batches: 10
+    inference_steps: ${sampling.steps}
+    save_samples: 10
+  benchmark_drakes: false
