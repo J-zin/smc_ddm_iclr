@@ -1,0 +1,48 @@
+hydra:
+  searchpath:
+    - file://mdlm/configs
+
+defaults:
+  - config
+  - _self_
+
+eval:
+  checkpoint_path: 'kuleshov-group/mdlm-owt'
+
+backbone: 'hf_dit'
+
+loader:
+  eval_batch_size: 32
+
+model:
+  length: 100
+
+training:
+  ema: 0 # this disables EMA used by MDLM
+
+wandb:
+  project: "smc-ddm-lm"
+
+finetuning:
+  num_timesteps: 100
+  batch_size: 32
+  lr: 0.0001
+  num_epochs: 100
+  batches_per_epoch: 10
+  patience: 20
+  sample_onpolicy: true
+  num_samples_for_reward_estimate: 1
+  reward_estimate_method: 'logmeanexp'
+  kl_weight: 0.2
+  kl_method: 'backward'
+  alpha: 0.1
+  lora:
+    enabled: true
+    target_modules: ["attn_qkv", "attn_out", "mlp.0", "mlp.2"]
+    r: 8
+    lora_alpha: 8
+    lora_dropout: 0
+    bias: "none"
+  validation:
+    prompt_file: ${hydra:runtime.cwd}/evaluation/pplm_discrim_prompts_orig.jsonl
+    inference_steps: 100

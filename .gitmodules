@@ -1,0 +1,4 @@
+[submodule "language_modelling/mdlm"]
+	path = language_modelling/mdlm
+	url = git@github.com:chinmay8bit/mdlm.git
+	branch = support-differentiation-using-one-hot-inputs

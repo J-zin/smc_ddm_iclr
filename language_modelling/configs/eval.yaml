@@ -1,0 +1,54 @@
+hydra:
+  searchpath:
+    - file://mdlm/configs
+  run:
+    dir: ./outputs/${smc.proposal_type}_${smc.num_particles}_${smc.kl_weight}_${smc.resampling.frequency}_${smc.phi}/${now:%Y%m%d}/${now:%H%M%S}
+  job:
+    chdir: true
+
+defaults:
+  - config
+  - _self_
+
+eval:
+  checkpoint_path: 'kuleshov-group/mdlm-owt'
+
+backbone: 'hf_dit'
+
+loader:
+  eval_batch_size: 8
+
+model:
+  length: 100
+
+smc:
+  remdm:
+    schedule: "cosine"
+    remask_strategy: "rescale"
+    eta: 0.00
+  resampling:
+    ess_threshold: 0.5
+    partial: False
+    frequency: 10
+  phi: 4
+  tau: 1.0
+  kl_weight: 0.2
+  num_inference_steps: 100
+  num_particles: 8
+  batch_p: 8
+  lambda_tempering:
+    enabled: True
+    one_at: 100
+  proposal_type: "locally_optimal"
+  use_continuous_formulation: True
+  prompt_text: null
+
+ft_model:
+  lora: False
+  ckpt_path: null
+
+run_all:
+  prompt_file: ${hydra:runtime.cwd}/evaluation/pplm_discrim_prompts_orig.jsonl
+  runs_per_prompt: 1
+  seed: null
+  save_all: False
