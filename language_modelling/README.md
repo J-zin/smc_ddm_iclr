@@ -1,6 +1,6 @@
 # Language Modelling — SMC-DDM
 
-**Built on:** [MDLM](https://github.com/kuleshov-group/mdlm) (git submodule). Evaluation scripts adapted from [FK-Diffusion-Steering](https://github.com/zacharyhorvitz/Fk-Diffusion-Steering/tree/main/discrete_diffusion/evaluation).
+**Built on:** [MDLM](https://github.com/kuleshov-group/mdlm) (git submodule). Evaluation scripts adapted from [FK-Diffusion-Steering](https://github.com/zacharyhorvitz/Fk-Diffusion-Steering).
 
 ## Setup
 
